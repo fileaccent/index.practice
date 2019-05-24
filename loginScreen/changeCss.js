@@ -28,7 +28,7 @@ var browser={
     language:(navigator.browserLanguage || navigator.language).toLowerCase()  
 }   
    
-if(browser.versions.mobile || browser.versions.ios || browser.versions.android || browser.versions.iPhone || browser.versions.iPad){    cssChange();     
+if(browser.versions.mobile || browser.versions.ios || browser.versions.android || browser.versions.iPhone || browser.versions.iPad){    cssChange();  
 }  
  
 function cssChange(){
