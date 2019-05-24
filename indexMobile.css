@@ -1,16 +1,12 @@
 
 body{
   
-  position:absolute;
-  left:0;
-  right:0;
-  top:0;
-  bottom:0;
-  
+  height:100vh;
+
   background: url(picture1.jpg) no-repeat;
   overflow: hidden;
   background-attachment:fixed;
-  
+
 }
 #headTitle{
 
