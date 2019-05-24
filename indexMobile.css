@@ -1,84 +1,91 @@
 
 body{
   margin:0px;
-  background: url(picture.jpg) no-repeat;
-  background-size:100% 90%;
+  background: url(picture1.jpg) no-repeat;
+  background-size:100% 100%;
   background-position:bottom right;
   background-attachment:fixed;
   
 }
 #headTitle{
 
-  margin:10px;
+  margin:3vw;
   text-align:center;
-  font-size:40px;
+  font-size:12vw;
   color:rgb(47, 17, 128);
 
 }
 #titlePicture{
 
-  width:100px;
-  height:100px;
-  margin-top:10px;
+  width:20vw;
+  height:20vw;
+  margin-top:8vw;
   
 }
 #register{/*设置表单主题的格式*/
 
   position: absolute;
-  right:200px;
-  top:30%;
-  width: 300px;
-  height:300px;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%);
+  -o-transform:translate(-50%,-50%);
+  -moz-transform:translate(-50%,-50%);
+  -webkit-transform:translate(-50%,-50%);
+
+  width: 70vw;
+  height:80vw;
 
   font-family: "微软雅黑";
-  font-size: 15px;
-  background-color:rgba(255,255,255,0.5);
+  font-size: 5vw;
+  background-color:rgba(255,255,255,0.2);
   color:black;
   text-align:center;
 }
 #user{
 
-  width:260px;
+  width:65vw;
   margin:0 auto;
-  margin-top:10%;
+  margin-top:8vw;
 
 }
 #password{
 
-  width:260px;
+  width:65vw;
   margin:0 auto;
-  margin-top:4%;;
+  margin-top:4vw;
 }
 input[type="text"]{
 
-  width:200px;
-  height:30px;
+  width:45vw;
+  height:8vw;
   border:1px solid gray;
+  font-size:4vw;
 
 }
 input[type="password"]{/*设置输入框的格式*/
 
-  width:200px;
-  height:30px;
+  width:45vw;
+  height:8vw;
   border:1px solid gray;
+  font-size:4vw;
 
 }
 #submit{
 
-  width:260px;
+  width:65vw;
   margin:0 auto;
   margin-top:5%;
   text-align:left;
 }
 #registerSubmit{
 
-  width:150px;
-  height:50px;
+  width:65vw;
+  height:8vw;
   outline:none;
 
   font-family: "微软雅黑";
-  font-size: 20px;
-  word-spacing: 20px;
+  font-size: 5vw;
+  word-spacing: 5vw;
 
   background-color:black;
   color:white;
@@ -95,7 +102,7 @@ input[type="password"]{/*设置输入框的格式*/
 
   margin:0;
   display: inline-block;
-  font-size:10px;
+  font-size:3vw;
   color:red;
 
 }
