@@ -26,7 +26,7 @@ body{
 }
 #register{/*设置表单主题的格式*/
 
- margin:10vw;
+  margin-top:40vw;
   width: 70vw;
   height:80vw;
 
