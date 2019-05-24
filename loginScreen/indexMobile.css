@@ -3,15 +3,13 @@ body{
   margin:0px;
   background: url(picture1.jpg) no-repeat;
   background-size:100% 100%;
-  overflow: hidden;
   height:100vh;
-  background-position:bottom right;
   background-attachment:fixed;
-  
+  overflow: hidden;
 }
 #headTitle{
 
-  margin:3vw;
+  margin-top:3vw;
   text-align:center;
   font-size:8vw;
   color:white;
