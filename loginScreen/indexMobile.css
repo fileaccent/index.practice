@@ -1,11 +1,10 @@
 
 body{
-  margin:0px;
   height:100vh;
   background: url(picture1.jpg) no-repeat;
   background-size:cover;
   background-attachment:fixed;
-  overflow: hidden;
+  overflow-y: hidden;
 }
 #headTitle{
 
