@@ -81,7 +81,7 @@ input{
 
   width:150px;
   height:40px;
-
+  
   margin:0 auto;
 
 }
@@ -104,6 +104,15 @@ input{
   
   color:rgb(72,180,231); 
 }
+#operate{
+
+  width:550px;
+  height:30px;
+
+  margin-top:10px;
+  padding:0 auto;
+  display:none;
+}
 #submit{
 
   width:150px;
@@ -113,10 +122,8 @@ input{
   background-color:rgb(72,180,231);
   border: 1px solid rgb(72,180,231);
   outline:none;
-  display: none;
-
-  margin-top:10px;
-  margin-left:30px;
+ 
+  margin-left:40px;
   color:white; 
 }
 #submit:hover{
@@ -135,10 +142,11 @@ input{
   background-color:rgb(72,180,231);
   border: 1px solid rgb(72,180,231);
   outline:none;
-  display: none;
+  position:relative;/*将取消按钮上移与提交同行*/
+  top:-42px;
 
   margin-top:10px;
-  margin-left:90px;
+  margin-left:400px;
   color:white; 
 }
 #cancel:hover{

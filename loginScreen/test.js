@@ -24,3 +24,16 @@ function isPasswordCorrect(){/*检验密码的有效性*/
   
   }
 }
+$(function(){
+  $("#registerSubmit").on("click",function(){
+      var str = $("form").serialize(); alert(str);
+      $.post("http://127.0.0.1/txt/practice/system2/app/Http/Controllers/PeopleController.php",{str},function(data){
+        data=eval("("+data+")");alert(data);
+          if(data=="登陆成功"){
+              location = "http://127.0.0.1/txt/practice/message/message.html"+$("input[name='user']").val();
+          }else{
+              alert("用户名或密码错误！！！");
+          }
+      });
+  });
+});
