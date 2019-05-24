@@ -1,6 +1,6 @@
 
 body{
-  
+
   height:100vh;
 
   background: url(picture1.jpg) no-repeat;
@@ -26,14 +26,7 @@ body{
 }
 #register{/*设置表单主题的格式*/
 
-  position: absolute;
-  left:50%;
-  top:50%;
-  transform:translate(-50%,-50%);
-  -o-transform:translate(-50%,-50%);
-  -moz-transform:translate(-50%,-50%);
-  -webkit-transform:translate(-50%,-50%);
-
+ margin:10vw;
   width: 70vw;
   height:80vw;
 
